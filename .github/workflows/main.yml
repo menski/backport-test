@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: menski/backport-action@v1
+      uses: menski/backport-action
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
